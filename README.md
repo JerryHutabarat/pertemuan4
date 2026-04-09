@@ -1,50 +1,40 @@
-# Welcome to your Expo app 👋
+# Project M4: Interaction Master ⚡
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Tugas praktikum Minggu 4 - State & Events.
 
-## Get started
+## 📸 Preview
 
-1. Install dependencies
+![App Greeting](D:\pertemuan4\pertemuan4\assets\screenshot pertemuan4.jpeg)
 
-   ```bash
-   npm install
-   ```
+## 🛠️ Logic Implemented
 
-2. Start the app
+- **useState Hook:** Managing `count` (for the counter system), `name` (for the greeting form), and `bgColor` (for the dynamic background color).
+- **Event Handlers:** `onPress` for incrementing/decrementing the counter and changing the background color; `onChangeText` for real-time binding of the greeting form input.
+- **Reset Logic:** Clearing all states (`count`, `name`, `bgColor`) with one tap.
+- **Validation Logic:** Counter prevents negative values (Side Quest).
+- **Dynamic Background Color:** Implemented a toggle to switch background colors (Side Quest).
 
-   ```bash
-   npx expo start
-   ```
+## 🔗 Demo
 
-In the output, you'll find options to open the app in a
+[https://snack.expo.dev/@jerryhutabarat/pertemuan4]
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🚀 Cara Menjalankan (How to Run)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+1.  **Install Expo CLI:**
+    ```bash
+    npm install -g expo-cli
+    ```
+2.  **Clone this repository:**
+    ```bash
+    git clone [YOUR_GITHUB_REPO_LINK]
+    cd [YOUR_REPO_NAME]
+    ```
+3.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+4.  **Start the Expo development server:**
+    ```bash
+    expo start
+    ```
+5.  **Open on your device:** Scan the QR code with the Expo Go app on your phone or run it on an emulator/simulator.
